@@ -1,52 +1,85 @@
 /* STYLE SHEET FOR TRISKATHANIAASSIGNMENT2.HTML */
 
 body {
-background-color: GhostWhite;
-margin: 10px;
-font-family: 'Raleway', sans-serif;
+	font-size: 150%;
+	background-color: Silver;
+	margin: 10px;
+	font-family: arial, helvetica, geneva, sans-serif;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #d8d8d8;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.grid div:nth-child(odd) {
+	background-color: red;
 }
 
 .header {
-  padding: 5px;
-  text-align: center;
-  background-image: linear-gradient(DarkBlue, DarkGoldenRod);
-  color: white;
-  font-size: 30px;
+	padding: 5px;
+	text-align: center;
+	background-image: linear-gradient(DarkBlue, DarkGoldenRod);
+	color: white;
+	font-size: 30px;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #d8d8d8;
 }
 
 
 .logo-container {
-  position: relative;
+	position: relative;
 }
 
 .log-topleft {
-  position: absolute;
+	position: absolute;
 
+}
+
+h1 {
+	font-family: arial, helvetica, geneva, sans-serif;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer {
 	font-size: 90%;
 	text-align: center;
+	clear: both;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #d8d8d8;
+	margin-top: 0;
+	padding: 0;
 }
 
 .fa-container {
-  position: relative;
+	position: relative;
 }
 
 .fa-topright {
-  position: absolute;
-  top: 0px;
-  right: 16px;
-  font-size: 18px;
+	position: absolute;
+	top: 0px;
+	right: 16px;
+	font-size: 18px;
 }
 
 .fa {
-  padding:10px;
-  font-size: 10px;
-  width: 25px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 0px;
+	padding:20px;
+	font-size: 20px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px 0px;
 }
 
 .fa:hover {
@@ -54,17 +87,85 @@ font-family: 'Raleway', sans-serif;
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+	background: #3B5998;
+	color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+	background: #55ACEE;
+	color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+	background: #007bb5;
+	color: white;
+}
+
+.nav {
+	box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
+
+.sub-menu {
+   z-index: 1;
+   display: none;
+   width: 150px;
+   padding: 5px 5px;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px #888888;
+}
+
+.floatright {
+	float: right;
+	clear: right;
+	margin: 10px;
+}
+
+.div2 {
+	background-color: DimGray;
+}
+
+
+
+
+/* About Section -Section Counter */
+.* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
   color: white;
 }
 
+.fa {font-size:25px;}
+
+/* About Section -Section Counter end */
