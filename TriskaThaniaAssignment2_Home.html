@@ -16,46 +16,9 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="TriskaThaniaAssignment2CSS.css">  
-		
-<style>
+</head>		
 
-</style>
-	
-<script>
-$(document).ready(function(){
-  $(".nav-tabs a").click(function(){
-    $(this).tab('show');
-  });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-
+<header>
 <div class="fa-container">
 	<div class="fa-topright">
 		<a href="#" class="fa fa-facebook"></a>
@@ -63,12 +26,6 @@ $(document).ready(function(){
 		<a href="#" class="fa fa-linkedin"></a>
 	</div>
 </div>
-
-</head>
-
-<body>
-
-<header>
 
 <div class="header">
 	<div class="logo-container">
@@ -111,9 +68,8 @@ $(document).ready(function(){
 </div>
 
 </header>
-<body>
-<main>
 
+<main>
 
 <section>
 <!-- Tab panes Home-->
@@ -197,6 +153,41 @@ $(".left").click(function(){
 });
 </Script>
 
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
 <div style="background-color:LightGray;padding:40px; text-align: center;"></div>
 <br />
 <br />
@@ -204,36 +195,16 @@ $(".left").click(function(){
 </section>
 
 <section> 
-<div class="div2">
-	<div class="img-relative">
-		<div class="img-absolute">
-			<div id="hpsection2">
-				<div class="hpsection2 image container">
-				<h4 class="image" title="Handyman"> </h4>
-				<span class="b"><img src="img/handyman.png" alt="Handyman" style="align: top-right; width:25%"></span>
-	<div class="text-relative">
-		<div class="text-absolute">		
-			<div id="text-word-wrap">
-			<div class="hpsection2 text inner-contain">
-				<span class="b">
-				<h2 style="color: GhostWhite">How We Can Help</h2>
-				<h4 style="color: GhostWhite";>With us you can Find exceptional home repair services tailored for you. We specialize in Home Remodeling, kitchen, bathroom, soundproofing walls, patio construction, and so much more</h4></span>
+<div class="div2"></div>
+<h2>bla </h2>
 
-				
-				
-				</div>
-			</div>
-		</div>
-	</div>					
-</div>
-	</div>
-		</div>
 </section>
 <div class='page1home'></div>
 <br />
 <br />
 <br />
- <div style="background-color:LightGray;padding:20px; text-align: center;"></div> 	   
+ <div style="background-color:LightGray;padding:20px; text-align: center;"></div> 
+ 
 </main>
     
 <footer>
@@ -244,5 +215,5 @@ $(".left").click(function(){
     </div>
 
 </footer>						
-</body>
+
 </html>				
