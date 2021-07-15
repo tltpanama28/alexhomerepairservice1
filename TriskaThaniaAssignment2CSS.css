@@ -6,37 +6,19 @@ margin: 10px;
 font-family: 'Raleway', sans-serif;
 }
 
-.homepage
-
-
-.center {
-	text-align: center:
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: linear-gradient(DarkBlue, DarkGoldenRod);
+  color: white;
+  font-size: 30px;
 }
 
-header {
-	background-color: GhostWhite;
-}
+/* Page Content */
+.content {padding:20px;}
 
-.footer {
+
+footer {
 	font-size: 90%;
 	text-align: center;
-
-/* Navbar */
-
-
-
-
-.about
-
-
-
-.service
-
-
-
-.portfolio
-
-
-
-.contact
-
+}
