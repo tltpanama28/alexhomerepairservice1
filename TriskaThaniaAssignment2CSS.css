@@ -7,20 +7,37 @@ font-family: 'Raleway', sans-serif;
 }
 
 .header {
-  padding: 60px;
+  padding: 5px;
   text-align: center;
   background-image: linear-gradient(DarkBlue, DarkGoldenRod);
   color: white;
   font-size: 30px;
 }
 
-/* Page Content */
-.content {padding:5px;}
 
+.logo-container {
+  position: relative;
+}
 
-footer {
+.log-topleft {
+  position: absolute;
+
+}
+
+.footer {
 	font-size: 90%;
 	text-align: center;
+}
+
+.fa-container {
+  position: relative;
+}
+
+.fa-topright {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  font-size: 18px;
 }
 
 .fa {
@@ -29,7 +46,7 @@ footer {
   width: 25px;
   text-align: center;
   text-decoration: none;
-  margin: 0px 0px;
+  margin: 10px 0px;
 }
 
 .fa:hover {
