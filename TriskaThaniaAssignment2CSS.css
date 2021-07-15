@@ -15,7 +15,7 @@ body {
 }
 
 .grid div:nth-child(odd) {
-	background-color: red;
+	background-color: DimGray;
 }
 
 .header {
@@ -57,7 +57,7 @@ h1 {
 	clear: both;
 	border-top-style: solid;
 	border-top-width: 5px;
-	border-top-color: #d8d8d8;
+	background-image: linear-gradient(DarkBlue, DarkGoldenRod);
 	margin-top: 0;
 	padding: 0;
 }
@@ -74,12 +74,13 @@ h1 {
 }
 
 .fa {
-	padding:20px;
-	font-size: 20px;
-	width: 50px;
+	padding:10px;
+	font-size: 10px;
+	width: 35px;
 	text-align: center;
 	text-decoration: none;
 	margin: 10px 0px;
+	border-radius: 30%;
 }
 
 .fa:hover {
@@ -169,3 +170,27 @@ h1 {
 .fa {font-size:25px;}
 
 /* About Section -Section Counter end */
+
+/* Home Section - Parallax Scrolling Effect */
+
+.parallax {
+  /* The image used */
+  background-image: url("img/handyman.png");
+
+  /* Set a specific height */
+  min-height: 100px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+}
+  
+/* Home Section - Parallax Scrolling Effect End*/
