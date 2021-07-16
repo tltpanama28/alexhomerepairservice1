@@ -14,16 +14,28 @@ body {
 	padding: 0;
 }
 
+
+.menu
+
+
+.main
+
+
+.right
+
+
+
+
 .grid div:nth-child(odd) {
-	background-color: DimGray;
+	background-color: #B0C4DE;
 }
 
-.header {
+.header{
 	padding: 5px;
 	text-align: center;
-	background-image: linear-gradient(DarkBlue, DarkGoldenRod);
 	color: white;
 	font-size: 30px;
+	background-image: linear-gradient(DarkBlue, DarkGoldenRod);
 	border-bottom-style: solid;
 	border-bottom-width: 5px;
 	border-bottom-color: #d8d8d8;
@@ -124,11 +136,6 @@ p.outset {border-style: outset;}
 	margin: 10px;
 }
 
-
-
-.div2 {
-	background-color: DimGray;
-}
 
 /* Home containers */
 
@@ -265,3 +272,78 @@ p.outset {border-style: outset;}
 }
   
 /* Home Section - Parallax Scrolling Effect End*/
+
+/* Home Section - Testimonials*/
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  margin-top: 50px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/* Home Section - Testimonials End*/
