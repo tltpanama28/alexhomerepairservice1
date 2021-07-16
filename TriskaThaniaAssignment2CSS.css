@@ -152,17 +152,17 @@ p.outset {border-style: outset;}
 /* Home containers */
 
 /* Three columns side by side */
-.column {
+.home-column {
   float: left;
   width: 25%;
   margin-bottom: 16px;
   padding: 0 5px;
 }
 
-.row {margin: 0 50px;}
+.home-row {margin: 0 50px;}
 
 /* Clear floats after the columns */
-.row:after {
+.home-row:after {
   content: "";
   display: table;
   clear: both;
@@ -170,24 +170,24 @@ p.outset {border-style: outset;}
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
-  .column {
+  .home-column {
     width: 100%;
     display: block;
   }
 }
 
 /* Add some shadows to create a card effect */
-.card {
+.home-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Some left and right padding inside the container */
-.container {
+.home-container {
   padding: 10 16px;
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.home-container::after, .row::after {
   content: "";
   clear: both;
   display: table;
@@ -198,16 +198,17 @@ p.outset {border-style: outset;}
 }
 
 /* Style the counter cards */
-.card {
+.home-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
   background-color: #444;
   color: white;
 }
-
-
 /* Home containers End*/
+
+
+
 
 
 /* About Section -Section Counter */
@@ -216,16 +217,16 @@ p.outset {border-style: outset;}
 }
 
 /* Float four columns side by side */
-.column {
+.about-column {
   float: left;
   width: 25%;
   padding: 0 5px;
 }
 
-.row {margin: 0 50px;}
+.about-row {margin: 0 50px;}
 
 /* Clear floats after the columns */
-.row:after {
+.about-row:after {
   content: "";
   display: table;
   clear: both;
@@ -233,15 +234,14 @@ p.outset {border-style: outset;}
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .column {
+  .about-column {
     width: 100%;
     display: block;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px;}
 }
 
 /* Style the counter cards */
-.card {
+.about-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
@@ -254,7 +254,7 @@ p.outset {border-style: outset;}
 /* About Section -Section Counter end */
 
 /* Float four columns side by side */
-.column {
+.about-column {
   float: left;
   width: 25%;
   padding: 0 5px;
@@ -263,7 +263,7 @@ p.outset {border-style: outset;}
 
 /* Home Section - Parallax Scrolling Effect */
 
-.parallax {
+.home-parallax {
   /* The image used */
   background-image: url("img/handyman.png");
 
@@ -277,85 +277,101 @@ p.outset {border-style: outset;}
   background-size: cover;
 }
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-}
+
   
 /* Home Section - Parallax Scrolling Effect End*/
 
-/* Home Section - Testimonials*/
 
-.slideshow-container {
-  position: relative;
-  background: #f1f1f1f1;
+
+/* Services Section */
+/* Services Section End */
+
+
+
+/* Portfolio Section*/
+
+* {
+  box-sizing: border-box;
 }
 
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 80px;
-  text-align: center;
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 50%;
-  margin-top: 50px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
   font-size: 50px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  word-break: break-all;
 }
 
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 10px 0 0 10px;
+.row {
+  margin: 8px -16px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
 }
 
-/* The dot/bullet/indicator container */
-.dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
 }
 
-/* The dots/bullets/indicators */
-.dot {
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
 }
 
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-  background-color: #717171;
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
 }
 
-/* Add an italic font style to all quotes */
-q {font-style: italic;}
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
 
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
+/* Portfolio Section End */
 
 
-/* Home Section - Testimonials End*/
+
+
+/* Contact Section */
+/* Contact Section End */
+
+

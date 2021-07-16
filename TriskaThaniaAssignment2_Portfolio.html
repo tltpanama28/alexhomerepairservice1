@@ -77,9 +77,11 @@
 
 <!-- Tab panes Portfolio-->
 
-<div class="tab-content"></div>
-    <div id="portfolio" class="container tab-pane fade"></div>
-      <h3>Portfolio</h3>
+<div class="portfolio-tab-content"></div>
+    <div id="portfolio" class="portfolio-container tab-pane fade"></div>
+      
+	  
+	  <h3>Portfolio</h3>
 
 
 <div id="myBtnContainer">
@@ -88,10 +90,9 @@
   <button class="btn" onclick="filterSelection('floors')"> Floors</button>
   <button class="btn" onclick="filterSelection('backsplash')"> Backsplash</button>
   <button class="btn" onclick="filterSelection('close tab')"> Close Tab</button>
-</div>
+
 
 <!-- Portfolio Gallery Grid -->
-
 <div class="row">
   <div class="column kitchen">
     <div class="content">
@@ -99,12 +100,16 @@
       <h4>Kitchen</h4>
     </div>
   </div>
+  
+  
   <div class="column kitchen">
     <div class="content">
       <img src="img/pic3.png" alt="kitchen" style="width:100%">
       <h4>Kitchen</h4>
     </div>
   </div>
+  
+  
   <div class="column kitchen">
     <div class="content">
       <img src="img/waterfall.jpeg" alt="kitchen" style="width:100%">
@@ -127,15 +132,15 @@
       <h4>Backsplash</h4>
 	 </div>
 	</div>
+	
+	
   <div class="close tab">
     <div class="content"> 
     </div>
   </div>
-  
-<!-- END GRID -->
 </div>
-	  
-	  
+</div>	  
+<!-- END GRID -->	  
 	  
 	  
 <script>
@@ -144,17 +149,9 @@ $(document).ready(function(){
     $(this).tab('show');
   });
 });
-</script>	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+</script>
+
+	  	  
 <!-- Tab panes Portfolio End-->	
 
 <Script>
@@ -205,7 +202,6 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-
 </Script>
 
 
