@@ -37,9 +37,6 @@ body {
 }	
 
 
-.grid div:nth-child(odd) {
-	background-color: #B0C4DE;
-}
 
 .header{
 	padding: 5px;
@@ -351,10 +348,12 @@ p.outset {border-style: outset;}
 	background; transparent;	
 }
 
-.grid_svspg2_1 {
-	float: left;
-	display: inline;
-	background: transparent;
+.grid_svspg div:nth-child(even){
+	background: blue;
+}
+
+.grid_svspg div:nth-child(odd){
+	background: #696969;
 }
 
 .clear {
@@ -386,11 +385,11 @@ p.outset {border-style: outset;}
 }
 
 
-.vertical-menu {
+.vertical_menu {
   width: 200px;
 }
 
-.vertical-menu a {
+.vertical_menu a {
   background-color: #eee;
   color: black;
   display: block;
@@ -398,15 +397,17 @@ p.outset {border-style: outset;}
   text-decoration: none;
 }
 
-.vertical-menu a:hover {
+.vertical_menu a:hover {
   background-color: #ccc;
 }
 
-.vertical-menu a.active {
+.vertical_menu a.active {
   background-image: linear-gradient(DarkBlue, DarkGoldenRod);
   color: white;
 }
 	
+
+
 	
 
 
