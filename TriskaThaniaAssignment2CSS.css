@@ -314,18 +314,35 @@ p.outset {border-style: outset;}
 
 .main-services
 
+.container-video {
+	justify-contect: center;
+}
 
-video {
-    display: block;
+.center-video {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center-video {
+  margin: auto;
+  width: auto;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.video {
+    display: auto;
     margin: 0 auto;
 }
 
-audio {
-    display: block;
+.audio {
+    display: auto;
     margin: 0 auto;
-}
-
-
 }
 
 /* Services Section End */
