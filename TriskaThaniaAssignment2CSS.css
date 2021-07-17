@@ -2,7 +2,7 @@
 
 body {
 	font-size: 150%;
-	background-color: Silver;
+	background-color: #FFDAB9;
 	margin: 10px;
 	font-family: arial, helvetica, geneva, sans-serif;
 	border-style: solid;
@@ -15,12 +15,11 @@ body {
 }
 
 
+
 .menu {
 	background-color: GoldenRod;
 }
 	
-.main
-
 
 .right
 
@@ -183,7 +182,7 @@ p.outset {border-style: outset;}
 
 /* Some left and right padding inside the container */
 .home-container {
-  padding: 10 16px;
+  padding: 10px 16px;
 }
 
 /* Clear floats */
@@ -209,7 +208,7 @@ p.outset {border-style: outset;}
 
 
 /* About Section -Section Counter */
-.* {
+* {
   box-sizing: border-box;
 }
 
@@ -262,7 +261,7 @@ p.outset {border-style: outset;}
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   position: relative;
 }
 
@@ -298,7 +297,7 @@ p.outset {border-style: outset;}
   background-image: url("img/handyman.png");
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height:350px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -312,6 +311,23 @@ p.outset {border-style: outset;}
 
 
 /* Services Section */
+
+.main-services
+
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
+
+}
+
 /* Services Section End */
 
 
@@ -323,7 +339,7 @@ p.outset {border-style: outset;}
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #DCDCDC;
   padding: 20px;
   font-family: Arial;
 }

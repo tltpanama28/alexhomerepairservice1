@@ -70,120 +70,48 @@
 	</ul>
 <div style="background-image: linear-gradient(DarkBlue, DarkGoldenRod);padding:3px;"></div>
 </div>
-
+</div>
 </header>
 
 <main>
+
+	<h3>Services</h3>
+	
 <section>
-<!-- Tab panes Services-->
-  <h3>Services</h3>
+
+<div class="video">
+<video width="640" height="360" controls autoplay muted loop>
+<source   src="media/installing-new-flooring.mp4" type="video/mp4">
+<source   src="media/installing-new-flooring.ogg" type="video/ogg">
+		Your browser does not support HTML5 video.
+</video>
+</div>
+	
+<div class="audio">
+<audio controls autoplay loop>
+  <source src="media/beautiful-pop.ogg" type="audio/ogg">
+  <source src="media/beautiful-pop.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
 
 
-<div class="tab-content"></div>
-    <div id="services" class="container tab-pane fade"><br />
-      <h3>Services</h3>
-			<div class="row">
-				<div class="column">
-					<img src="img/pic2.png" alt="Snow" style="width:100%">
-						<p>Kitchen Remodeling</p>
-				</div>
-				<div class="column">
-					<img src="img/pic6.png" alt="Forest" style="width:100%">
-						<p>Basement Finising</p>
-				</div>
-				<div class="column">
-					<img src="img/pic4.png" alt="Mountains" style="width:100%">
-						<p>Deck Remodeling</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="column">
-					<img src="img/pic5.png" alt="Snow" style="width:100%">
-						<p>Patio Construction</p>
-				</div>
-				<div class="column">
-					<img src="img/pic7.png" alt="Forest" style="width:100%">
-						<p>Bathroom Remodeling</p>
-				</div>
-					<div class="column">
-						<img src="img/pic8.png" alt="Mountains" style="width:100%">
-							<p>Even Sound Proofing</p>
-					</div>
-			</div>
-
-<p class="title">Let us know what you need done and we will make it happen.</p>
-        <p>We offer 100 percent FREE ESTIMATES. We can customize your kitchen design to fit your space and budget. Additionally, we also specialize in crawl spaces and problen of all types in basement. We also offer affordable deck and patio construction. As well as bathroom renovations. Contact us today and let us build or rebuild your dream home.</p>
-	</div>
-
-
-<script>
-$(document).ready(function(){
-  $(".nav-tabs a").click(function(){
-    $(this).tab('show');
-  });
-});
-</script>
-
-
-
-
-
-<Script>
-filterSelection("all") // Execute the function and show all columns
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-// Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-
-// Hide elements that are not selected
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</Script>
-
-<!-- Tab panes Services End-->
-
-<div class="page3Services"></div>
-
+	<h4>HomeSquare Home Maintenance Services</h4>
+	
+		<p style="text-align:center" class= "outset"> <b> bala bala alla		</p>
+		
+</div>		
 </section>
+
+<section>		
+<div class="container-srv2">
+
+	<h4>blablaba</h4>
+		<p <p style="text-align:center" class= "outset"> <b> balalallallala </p>
+</div>
+</section>
+
+
 </main>
     
 <footer>
