@@ -303,6 +303,8 @@ p.outset {border-style: outset;}
   background-size: cover;
 }
  
+
+ 
 /* Home Section - Parallax Scrolling Effect End*/
 
 
@@ -408,10 +410,6 @@ p.outset {border-style: outset;}
 	
 
 
-	
-
-
-
 /* Services Section End */
 
 
@@ -485,7 +483,7 @@ h1 {
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color: #808080;
 }
 
 /* Add a dark background color to the active button */
