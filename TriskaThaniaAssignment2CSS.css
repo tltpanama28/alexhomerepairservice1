@@ -312,7 +312,6 @@ p.outset {border-style: outset;}
 
 /* Services Section */
 
-.main-services
 
 .container-video {
 	justify-contect: center;
@@ -344,6 +343,73 @@ p.outset {border-style: outset;}
     display: auto;
     margin: 0 auto;
 }
+
+.container_svspg2 {
+	positiion: relative;
+	margin: 0 auto;
+	padding: 0;
+	background; transparent;	
+}
+
+.grid_svspg2_1 {
+	float: left;
+	display: inline;
+	background: transparent;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.svspg2_content {
+	width: 100%;
+	backround: #fff;
+	padding: 62px 0 65px;
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+
+
+.a {
+	outline: none;
+	cursor; pointer;
+}
+
+
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-image: linear-gradient(DarkBlue, DarkGoldenRod);
+  color: white;
+}
+	
+	
+
+
 
 /* Services Section End */
 
