@@ -16,6 +16,11 @@ body {
 
 
 
+/* selected link */
+a:active {
+  color: yellow;
+} 
+
 .menu {
 	background-color: GoldenRod;
 }
