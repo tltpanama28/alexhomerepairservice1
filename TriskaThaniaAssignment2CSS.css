@@ -317,10 +317,6 @@ p.outset {border-style: outset;}
 /* Services Section */
 
 
-.container-video {
-	justify-contect: center;
-}
-
 .center-video {
   margin-left: auto;
   margin-right: auto;
@@ -338,25 +334,11 @@ p.outset {border-style: outset;}
   padding: 10px;
 }
 
-.video {
-    display: auto;
-    margin: 0 auto;
-}
-
-.audio {
-    display: auto;
-    margin: 0 auto;
-}
 
 .container_svspg2 {
-	positiion: relative;
+	position: relative;
 	margin: 0 auto;
 	padding: 0;
-	background; transparent;	
-}
-
-.grid_svspg div:nth-child(even){
-	background: blue;
 }
 
 .grid_svspg div:nth-child(odd){
@@ -374,7 +356,7 @@ p.outset {border-style: outset;}
 
 .svspg2_content {
 	width: 100%;
-	backround: #fff;
+	background: #fff;
 	padding: 62px 0 65px;
 }
 
@@ -383,12 +365,6 @@ p.outset {border-style: outset;}
 	overflow: hidden;
 	position: relative;
 	display: block;
-}
-
-
-.a {
-	outline: none;
-	cursor; pointer;
 }
 
 
@@ -412,16 +388,79 @@ p.outset {border-style: outset;}
   background-image: linear-gradient(DarkBlue, DarkGoldenRod);
   color: white;
 }
+
+
+article {
+  float: right;
+  padding: 80px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 	
 
 .basement_img div {
   width: 100%;
   height: 400px;
-  background-image: url(img/basement.png');
-  background-size: auto;
+  background-image: url(img/basement.png);
   border: 1px solid red;
 }
 
+.bathroom_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/bathroom.png);
+  border: 1px solid red;
+}
+
+.deck_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/deck.png);
+  border: 1px solid red;
+}
+
+.exterior_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/Extrior.png);
+  border: 1px solid red;
+}
+
+.interior_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/Interior.png);
+  border: 1px solid red;
+}
+
+.kitchen_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/kitchen2.png);
+  border: 1px solid red;
+}
+
+.patio_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/patio.png);
+  border: 1px solid red;
+}
+
+.sound_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/sound.png);
+  border: 1px solid red;
+}
 
 
 
@@ -514,6 +553,14 @@ h1 {
 
 
 /* Contact Section */
+
+.chicagomap_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/chicagomap.png);
+  border: 1px solid red;
+}
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
