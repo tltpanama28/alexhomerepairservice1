@@ -253,14 +253,16 @@ p.outset {border-style: outset;}
 
 .fa {font-size:25px;}
 
-/* About Section -Section Counter end */
-
 /* Float four columns side by side */
 .about-column {
   float: left;
   width: 25%;
   padding: 0 5px;
 }
+
+
+/* About Section -Section Counter end */
+
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pic1.png");
@@ -535,9 +537,16 @@ div.transbox p {
   color: #000000;
 }
 
-/* About Section -Section Counter */
+/* Services Section -pg3*/
 
-
+/* Style Services-cards */
+.svs-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #00008B;
+  color: white;
+}
 
 
 
