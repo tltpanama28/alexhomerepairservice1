@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" >
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="TriskaThaniaAssignment3CSS.css">  
 		
@@ -33,19 +34,37 @@ function myFunction() {
   }
 }
 </script>		
-
 <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-</script>		
-				
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+			
 		
 </head>		
 
 <header>
-
-<script>
-
-</script>
 
 
 <div class="header">
@@ -178,7 +197,7 @@ function myFunction() {
 <br />
 
 <div style="background-color: #D3D3D3">
-<p style="text-align:center" class= "outset"> <b> We are located in the heart of Chicago, IL, serving the community for more than 20 years. We specialiaze in home remodeling services. Our team of experts can help you with your kitchen remodeling, bathroom remodeling, basement finishing and room additions. We also provide services to the surrounding Illinois communities including Lincoln Park, East Rogers Park, West Ridge, O'Hare, and Edgewater. Call us, we will be glad to help. </b></p>
+<p style="text-align:center" class= "outset"> <b> We are located in the heart of Chicago, IL, serving the community for more than 20 years. We specialiaze in home remodeling services. Our team of experts can help you with your kitchen remodeling, bathroom remodeling, basement finishing and room additions. We also provide services to the surrounding Illinois communities including Lincoln Park, East Rogers Park, West Ridge, O'Hare, and Edgewater. Call us, we will be glad to help.</p>
 </div>
 <br />
 
@@ -300,36 +319,6 @@ $(".left").click(function(){
   $("#myCarousel").carousel("prev");
 });
 </Script>
-
-
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-
 
 </main>
     

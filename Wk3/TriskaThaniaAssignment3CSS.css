@@ -1,13 +1,13 @@
 /* STYLE SHEET FOR TRISKATHANIAASSIGNMENT3.HTML */
 
 body {
-	font-size: 150%;
+	font-size: 100%;
 	background-color: #FFDAB9;
 	margin: 10px;
 	font-family: arial, helvetica, geneva, sans-serif;
 	border-style: solid;
 	border-width: 5px;
-	border-color: linear-gradient(DarkBlue, DarkGoldenRod);
+	border-color: #444;
 }
 
 * {
@@ -153,7 +153,7 @@ p.outset {border-style: outset;}
 /* Home containers */
 
 .hmpgcontainer {
-	border-color: 10px solid #6495ED;
+	border-color: #6495ED;
 }
 
 /* Three columns side by side */
@@ -300,7 +300,7 @@ p.outset {border-style: outset;}
 
 
 .about_testi_content {
-	grid-column: span 500px;
+	grid-column: auto;
 }
 
 .container_testi {
@@ -335,10 +335,6 @@ p.outset {border-style: outset;}
   animation: glow 1s ease-in-out infinite alternate;
 }
 
- 
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #4B0082 0 0 40px #4B0082, 0 0 50px #4B0082, 0 0 60px #4B0082, 0 0 70px #4B0082, 0 0 80px #4B0082;
-  }
 
 
 /* About Section End */
@@ -537,17 +533,55 @@ div.transbox p {
   color: #000000;
 }
 
-/* Services Section -pg3*/
+/* Services-Section -pg3*/
 
-/* Style Services-cards */
-.svs-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  text-align: center;
-  background-color: #00008B;
-  color: white;
+.svs-image-comparison-slider-container {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 40px 220px 40px;
+	grid-gap: 3px;
 }
 
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 300px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: 900;
+  height: 300;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #00008B;
+  opacity: 0.7;
+  border-radius: 100%;
+}
+
+
+aside {
+  width: 40%;
+  padding-left: 10px;
+  margin-left: 25px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
 
 
 /* Services Section End */
@@ -701,3 +735,6 @@ input[type=submit]:hover {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00008B, 0 0 40px #00008B, 0 0 50px #00008B, 0 0 60px #00008B, 0 0 70px #00008B;
 }
+	to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4B0082 0 0 40px #4B0082, 0 0 50px #4B0082, 0 0 60px #4B0082, 0 0 70px #4B0082, 0 0 80px #4B0082;
+  }
