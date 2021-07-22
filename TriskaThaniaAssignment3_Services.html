@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-Us">
 <head>
-		<title>Alex's Home Repair Services</title>
-        <meta charset="UTF-8">
-		<meta name="services-description" content="home repairs services">
-		<meta name="keywords" content="home repairs services, bathrooms, kitchen, deck, interior, exterior, remodeling, basement finishing">
-		<meta name="author" content="Thania L Triska">
-		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://glyphsearch.com/?library=glyphicons">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="TriskaThaniaAssignment3CSS.css">  
-</head>		
+	<title>Alex's Home Repair Services</title>
+    <meta charset="UTF-8">
+	<meta name="services-description" content="home repairs services">
+	<meta name="keywords" content="home repairs services, bathrooms, kitchen, deck, interior, exterior, remodeling, basement finishing">
+	<meta name="author" content="Thania L Triska">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://glyphsearch.com/?library=glyphicons">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="TriskaThaniaAssignment3CSS.css">  
+		
+		
+		
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>		
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-<header>
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+			
+		
+</head>		
 <div class="fa-container">
 	<div class="fa-topright">
 		<a href="facebook.com" class="fa fa-facebook"></a>
@@ -85,25 +128,16 @@
 
 			<div class="center"> 
 				<div class="video">
-				<video width="900" height="360" autoplay loop>
-				<source   src="media/services.mp4" type="video/mp4">
-				<source   src="media/services.ogg" type="video/ogg">
+				<video width="900" height="360" controls autoplay loop>
+				<source   src="media/services_2.mp4" type="video/mp4">
+				<source   src="media/services_2.ogg" type="video/ogg">
 				Your browser does not support HTML5 video.
 				</video>
 				</div>
 			</div>
 
 <br />
-				<div class="center"> 	
-					<div class="audio">
-						<audio controls autoplay loop>
-						<source src="media/beautiful-pop.ogg" type="audio/ogg">
-						<source src="media/beautiful-pop.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-						</audio>
-					</div>
-				</div>
-			</div>
+
 </section>
 <br />
 <div style="background-image: linear-gradient(DarkBlue, DarkGoldenRod);padding:10px;"></div>

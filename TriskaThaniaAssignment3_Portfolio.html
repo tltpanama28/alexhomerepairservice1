@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-Us">
 <head>
-		<title>Alex's Home Repair Services</title>
-        <meta charset="UTF-8">
-		<meta name="services-description" content="home repairs services">
-		<meta name="keywords" content="home repairs services, bathrooms, kitchen, deck, interior, exterior, remodeling, basement finishing">
-		<meta name="author" content="Thania L Triska">
-		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://glyphsearch.com/?library=glyphicons">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="TriskaThaniaAssignment3CSS.css">  
-</head>		
+	<title>Alex's Home Repair Services</title>
+    <meta charset="UTF-8">
+	<meta name="services-description" content="home repairs services">
+	<meta name="keywords" content="home repairs services, bathrooms, kitchen, deck, interior, exterior, remodeling, basement finishing">
+	<meta name="author" content="Thania L Triska">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://glyphsearch.com/?library=glyphicons">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="TriskaThaniaAssignment3CSS.css">  
+		
+		
+		
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>		
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-<header>
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+			
+		
+</head>		
 <div class="fa-container">
 	<div class="fa-topright">
 		<a href="facebook.com" class="fa fa-facebook"></a>
@@ -86,61 +129,84 @@
 
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('kitchen')"> Kitchen</button>
+  <button class="btn" onclick="filterSelection('basement')">Basement</button>
+  <button class="btn" onclick="filterSelection('bathroom')">Bathroom</button>
+  <button class="btn" onclick="filterSelection('exterior')">Exterior</button>
   <button class="btn" onclick="filterSelection('floors')"> Floors</button>
-  <button class="btn" onclick="filterSelection('backsplash')"> Backsplash</button>
-  <button class="btn" onclick="filterSelection('close tab')"> Close Tab</button>
+  <button class="btn" onclick="filterSelection('interior')">Interior</button>
+  <button class="btn" onclick="filterSelection('kitchen')">Kitchen</button>
+  <button class="btn" onclick="filterSelection('sound')">Sound</button>
+  <button class="btn" onclick="filterSelection('close tab')">Close Tab</button>
 
 
 <!-- Portfolio Gallery Grid -->
+
 <div class="row">
-  <div class="column kitchen">
+  <div class="column basement">
     <div class="content">
-      <img src="img/pic2.png" alt="kitchen" style="width:100%">
-      <h4>Kitchen</h4>
+      <img src="img/basement.png" alt="basement" style="width:100%">
+      <h4>Basement</h4>
     </div>
-  </div>
-  
-  
-  <div class="column kitchen">
+  </div> 
+<div class="column bathroom">
     <div class="content">
-      <img src="img/pic3.png" alt="kitchen" style="width:100%">
-      <h4>Kitchen</h4>
+      <img src="img/bathroom.png" alt="bathroom" style="width:100%">
+      <h4>Bathroom</h4>
     </div>
-  </div>
-  
-  
-  <div class="column kitchen">
+</div>  
+<div class="row"> 
+<div class="column exterior">
     <div class="content">
-      <img src="img/waterfall.jpeg" alt="kitchen" style="width:100%">
-      <h4>kitchen</h4>
+      <img src="img/exterior.png" alt="exterior" style="width:100%">
+      <h4>Exterior</h4>
     </div>
+ </div> 
+</div> 
+ <div class="column exterior">
+    <div class="content">
+      <img src="img/deck.png" alt="exterior" style="width:100%">
+      <h4>Exterior</h4>
+    </div>
+ </div> 
+
+  <div class="column exterior">
+    <div class="content">
+      <img src="img/greatdeck.png" alt="exterior" style="width:100%">
+      <h4>Exterior</h4>
   </div>
-  
-  
+ </div>   
+ <div class="row">
   <div class="column floors">
     <div class="content">
-      <img src="img/pic8.png" alt="floors" style="width:100%">
+      <img src="img/pic8.png" alt="floor" style="width:100%">
       <h4>Floors</h4>
     </div>
-  </div>
-  
-  
-  <div class="column backsplash">
+  </div> 
+  <div class="column interior">
     <div class="content">
-      <img src="img/kitchen.jpeg" alt="backsplash" style="width:100%">
-      <h4>Backsplash</h4>
-	 </div>
-	</div>
-	
-	
-  <div class="close tab">
-    <div class="content"> 
+      <img src="img/interior.png" alt="interior" style="width:100%">
+      <h4>Interior</h4>
     </div>
   </div>
+  <div class="column kitchen">
+    <div class="content">
+      <img src="img/kitchen.png" alt="kitchen" style="width:100%">
+      <h4>Kitchen</h4>
+    </div>
+  </div>  
+ <div class="row"> 
+ <div class="column sound">
+    <div class="content">
+      <img src="img/sound.png" alt="sound" style="width:100%">
+      <h4>Sound Proofing</h4>
+    </div>
+  </div>
+ </div> 	  
 </div>
-</div>	  
-<!-- END GRID -->	  
+</div> 
+
+
+<!-- END GRID -->
 
 <br />
 	
@@ -148,9 +214,9 @@
 <br />
 <br />		
 
-		<div class="center"> 
-			<a href="mailto:alexhernandez@gmail?subject=Request%20Information" class="button onclick">Get in Touch</a>
-		</div> 
+<div class="center"> 
+	<a href="mailto:alexhernandez@gmail?subject=Request%20Information" class="button onclick">Get in Touch</a>
+</div> 
 
 <br />
 

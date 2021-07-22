@@ -58,15 +58,6 @@ body {
 }
 
 
-.logo-container {
-	position: relative;
-}
-
-.log-topleft {
-	position: absolute;
-
-}
-
 h1 {
 	font-family: 'Merienda', cursive;
 	margin-top: 5px;
@@ -434,7 +425,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/basement.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -442,7 +432,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/bathroom.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -450,7 +439,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/deck.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -458,7 +446,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/Extrior.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -466,7 +453,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/Interior.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -474,7 +460,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/kitchen2.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -482,7 +467,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/patio.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -490,7 +474,6 @@ p.outset {border-style: outset;}
   width: 100%;
   height: 400px;
   background-image: url(img/sound.png);
-  border: 1px solid red;
   opacity: 0.6;
 }
 
@@ -573,16 +556,10 @@ div.transbox p {
   border-radius: 100%;
 }
 
-
-aside {
-  width: 40%;
-  padding-left: 10px;
-  margin-left: 25px;
-  float: right;
-  font-style: italic;
-  background-color: lightgray;
+.container_basement {
+	Background-color: rgb(68, 68, 68);
+	padding: 20px;
 }
-
 
 /* Services Section End */
 
