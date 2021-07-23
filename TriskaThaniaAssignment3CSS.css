@@ -18,6 +18,9 @@ body {
 
 .menu {
 	background-color: GoldenRod;
+	font-size: 150%;
+	margin-top: 0;
+	padding: 0;
 }
 
 
@@ -86,8 +89,66 @@ h3 {
 	align-items: center;
 }
 
+.container_page1 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+.container_page2 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+.container_page3 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+.container_page4 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+.container_page5 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+
+.container_page6 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+
+.container_page7 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+.container_page8 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+.container_page9 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+.container_page10 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+.container_page11 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+
+.container_page12 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+
+.container_page13 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+
+
 .footer {
-	font-size: 90%;
+	font-size: 150%;
 	text-align: center;
 	clear: both;
 	border-top-style: solid;
@@ -426,6 +487,7 @@ p.outset {border-style: outset;}
   height: 400px;
   background-image: url(img/basement.png);
   opacity: 0.6;
+  border: 5px solid DarkBlue;
 }
 
 .bathroom_img div {
@@ -556,9 +618,235 @@ div.transbox p {
   border-radius: 100%;
 }
 
-.container_basement {
-	Background-color: rgb(68, 68, 68);
-	padding: 20px;
+
+/* Previous and Next Buttons */
+
+/*Basement-6*/
+
+div.directional6 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional6:hover {
+  background-color: (217, 217, 217);
+  color: white;
+}
+
+.previous6 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next6 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+/*Bathroom-7*/
+
+div.directional7 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional7:hover {
+  background-color: (217, 217, 217);
+  color: white;
+}
+
+.previous7 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next7 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+/*Deck-8*/
+div.directional8 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional8:hover {
+  background-color: (221, 221, 221);
+  color: white;
+}
+
+.previous8 {
+  background-color: rgba(221, 221, 221);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next8 {
+  background-color: rgba(221, 221, 221);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+/*Exterior-9*/
+div.directional9 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional9:hover {
+  background-color: (179, 179, 179);
+  color: white;
+}
+
+.previous9 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next9 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+
+/*Interior-10*/
+div.directional10 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional10:hover {
+  background-color: (140, 140, 140);
+  color: white;
+}
+
+.previous10 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next10 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+/*Kitchen-11*/
+div.directional11 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional11:hover {
+  background-color: (217, 217, 217);
+  color: white;
+}
+
+.previous11 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next11 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+/*Patio-12*/
+div.directional12 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional12:hover {
+  background-color: (179, 179, 179);
+  color: white;
+}
+
+.previous12 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next12 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+/*Sound-13*/
+
+div.directional13 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional13:hover {
+  background-color: (140, 140, 140);
+  color: white;
+}
+
+.previous13 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
+}
+
+.next13 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+  
 }
 
 /* Services Section End */
