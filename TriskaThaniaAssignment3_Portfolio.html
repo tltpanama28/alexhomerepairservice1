@@ -61,7 +61,8 @@ $(document).ready(function(){
 </script>
 			
 		
-</head>		
+</head>	
+<header>	
 <div class="fa-container">
 	<div class="fa-topright">
 		<a href="facebook.com" class="fa fa-facebook"></a>
@@ -111,14 +112,14 @@ $(document).ready(function(){
 	</ul>
  </div>
 <div style="background-image: linear-gradient(DarkBlue, DarkGoldenRod);padding:3px;"></div>	 
-</div>
+
 </header>
 
 
 <main id="potfoliopage4">
 <div class="container_page4">
 	
-	<section id="gallery">
+<section id="gallery">
 <br />
 	  <h2>Portfolio</h2>
 <br />	  
@@ -129,88 +130,50 @@ $(document).ready(function(){
 
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('basement')">Basement</button>
-  <button class="btn" onclick="filterSelection('bathroom')">Bathroom</button>
-  <button class="btn" onclick="filterSelection('exterior')">Exterior</button>
-  <button class="btn" onclick="filterSelection('floors')"> Floors</button>
-  <button class="btn" onclick="filterSelection('interior')">Interior</button>
-  <button class="btn" onclick="filterSelection('kitchen')">Kitchen</button>
-  <button class="btn" onclick="filterSelection('sound')">Sound</button>
-  <button class="btn" onclick="filterSelection('close tab')">Close Tab</button>
-
+  <button class="btn active" onclick="filterSelection('close-all')">Close Gallery</button>
+</div>
 
 <!-- Portfolio Gallery Grid -->
 
 <div class="row">
-  <div class="column basement">
+  <div class="column">
     <div class="content">
       <img src="img/basement.png" alt="basement" style="width:100%">
       <h4>Basement</h4>
-    </div>
-  </div> 
-<div class="column bathroom">
+     </div>
+  </div>
+  <div class="column">
     <div class="content">
       <img src="img/bathroom.png" alt="bathroom" style="width:100%">
       <h4>Bathroom</h4>
     </div>
-</div>  
-<div class="row"> 
-<div class="column exterior">
+  </div>
+  <div class="column">
     <div class="content">
       <img src="img/exterior.png" alt="exterior" style="width:100%">
       <h4>Exterior</h4>
-    </div>
- </div> 
-</div> 
- <div class="column exterior">
-    <div class="content">
-      <img src="img/deck.png" alt="exterior" style="width:100%">
-      <h4>Exterior</h4>
-    </div>
- </div> 
-
-  <div class="column exterior">
-    <div class="content">
-      <img src="img/greatdeck.png" alt="exterior" style="width:100%">
-      <h4>Exterior</h4>
+     </div>
   </div>
- </div>   
- <div class="row">
-  <div class="column floors">
-    <div class="content">
-      <img src="img/pic8.png" alt="floor" style="width:100%">
-      <h4>Floors</h4>
-    </div>
-  </div> 
-  <div class="column interior">
+  <div class="column">
     <div class="content">
       <img src="img/interior.png" alt="interior" style="width:100%">
       <h4>Interior</h4>
     </div>
   </div>
-  <div class="column kitchen">
-    <div class="content">
-      <img src="img/kitchen.png" alt="kitchen" style="width:100%">
-      <h4>Kitchen</h4>
-    </div>
-  </div>  
- <div class="row"> 
- <div class="column sound">
-    <div class="content">
-      <img src="img/sound.png" alt="sound" style="width:100%">
-      <h4>Sound Proofing</h4>
-    </div>
-  </div>
- </div> 	  
 </div>
-</div> 
+
+<div class="content">
+  <img src="img/kitchen.png" alt="kitchen" style="width:100%">
+  <h4>Kitchen</h4>
+ </div>
+
+<!-- END MAIN -->
 
 
-<!-- END GRID -->
+</section>
 
-<br />
-	
-		
+
+<br />		
 <br />
 <br />		
 
@@ -280,12 +243,8 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
 </Script>
-
-
-
-
-</section>
 </div>
 </main>
     
@@ -300,5 +259,5 @@ for (var i = 0; i < btns.length; i++) {
     </div>
 
 </footer>						
-</body>
+
 </html>	

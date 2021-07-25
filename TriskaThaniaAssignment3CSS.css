@@ -580,24 +580,17 @@ div.transbox p {
 
 /* Services-Section -pg3*/
 
-.svs-image-comparison-slider-container {
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: 40px 220px 40px;
-	grid-gap: 3px;
-}
-
 * {box-sizing: border-box;}
 
 .img-comp-container {
   position: relative;
-  height: 300px; /*should be the same height as the images*/
+  height: 200px; /*should be the same height as the images*/
 }
 
 .img-comp-img {
   position: absolute;
-  width: 900;
-  height: 300;
+  width: auto;
+  height: auto;
   overflow: hidden;
 }
 
@@ -613,11 +606,32 @@ div.transbox p {
   /*set the appearance of the slider:*/
   width: 40px;
   height: 40px;
-  background-color: #00008B;
+  background-color: #2196F3;
   opacity: 0.7;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
+.grid-services_content3-container {
+  display: grid;
+  grid-template-columns: center;
+  grid-template-rows: 80px 5px 390px;
+  grid-gap: 0px;
+  background-color: #2196F3;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.grid-services_content3-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-services_content3-container {
+  display: grid;
+  justify-content: space-around;
+}
 
 /* Previous and Next Buttons */
 
@@ -630,24 +644,22 @@ div.directional6 {
 }
 
 .directional6:hover {
-  background-color: (217, 217, 217);
+  background-color: rgba(179, 179, 179);
   color: white;
 }
 
 .previous6 {
-  background-color: rgba(217, 217, 217);
+  background-color: rgba(179, 179, 179);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 .next6 {
-  background-color: rgba(217, 217, 217);
+  background-color: rgba(179, 179, 179);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 /*Bathroom-7*/
@@ -659,7 +671,7 @@ div.directional7 {
 }
 
 .directional7:hover {
-  background-color: (217, 217, 217);
+  background-color: rgba(217, 217, 217);
   color: white;
 }
 
@@ -667,16 +679,14 @@ div.directional7 {
   background-color: rgba(217, 217, 217);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px;  
 }
 
 .next7 {
   background-color: rgba(217, 217, 217);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px;  
 }
 
 /*Deck-8*/
@@ -687,24 +697,22 @@ div.directional8 {
 }
 
 .directional8:hover {
-  background-color: (221, 221, 221);
+  background-color: rgba(217, 217, 217);
   color: white;
 }
 
 .previous8 {
-  background-color: rgba(221, 221, 221);
+  background-color: rgba(217, 217, 217);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 .next8 {
-  background-color: rgba(221, 221, 221);
+  background-color: rgba(217, 217, 217);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 /*Exterior-9*/
@@ -715,7 +723,7 @@ div.directional9 {
 }
 
 .directional9:hover {
-  background-color: (179, 179, 179);
+  background-color: rgba(179, 179, 179);
   color: white;
 }
 
@@ -723,8 +731,7 @@ div.directional9 {
   background-color: rgba(179, 179, 179);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 .next9 {
@@ -732,7 +739,6 @@ div.directional9 {
   color: white;
   font-family: 'Merienda', cursive;
   margin-top: 22px;
-  
 }
 
 
@@ -744,7 +750,7 @@ div.directional10 {
 }
 
 .directional10:hover {
-  background-color: (140, 140, 140);
+  background-color: rgba(140, 140, 140);
   color: white;
 }
 
@@ -752,16 +758,14 @@ div.directional10 {
   background-color: rgba(140, 140, 140);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 .next10 {
   background-color: rgba(140, 140, 140);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 /*Kitchen-11*/
@@ -772,7 +776,7 @@ div.directional11 {
 }
 
 .directional11:hover {
-  background-color: (217, 217, 217);
+  background-color: rgba(217, 217, 217);
   color: white;
 }
 
@@ -780,16 +784,14 @@ div.directional11 {
   background-color: rgba(217, 217, 217);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 .next11 {
   background-color: rgba(217, 217, 217);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 /*Patio-12*/
@@ -800,7 +802,7 @@ div.directional12 {
 }
 
 .directional12:hover {
-  background-color: (179, 179, 179);
+  background-color: rgba(179, 179, 179);
   color: white;
 }
 
@@ -808,16 +810,14 @@ div.directional12 {
   background-color: rgba(179, 179, 179);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 .next12 {
   background-color: rgba(179, 179, 179);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 /*Sound-13*/
@@ -829,7 +829,7 @@ div.directional13 {
 }
 
 .directional13:hover {
-  background-color: (140, 140, 140);
+  background-color: rgba(140, 140, 140);
   color: white;
 }
 
@@ -837,16 +837,14 @@ div.directional13 {
   background-color: rgba(140, 140, 140);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 .next13 {
   background-color: rgba(140, 140, 140);
   color: white;
   font-family: 'Merienda', cursive;
-  margin-top: 22px;
-  
+  margin-top: 22px; 
 }
 
 /* Services Section End */
@@ -862,7 +860,7 @@ div.directional13 {
 body {
   background-color: #DCDCDC;
   padding: 20px;
-  font-family: Arial;
+  font-family: 'Merienda', cursive;
 }
 
 /* Center website */
@@ -886,10 +884,10 @@ h1 {
   padding: 8px;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
   display: none; /* Hide columns by default */
 }
 
@@ -930,6 +928,23 @@ h1 {
   background-color: #666;
    color: white;
 }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
 
 /* Portfolio Section End */
 
