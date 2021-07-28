@@ -1,0 +1,1020 @@
+/* STYLE SHEET FOR TRISKATHANIAASSIGNMENT3.HTML */
+
+body {
+	font-size: 100%;
+	background-color: #FFDAB9;
+	margin: 10px;
+	font-family: arial, helvetica, geneva, sans-serif;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #444;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.menu {
+	background-color: GoldenRod;
+	font-size: 150%;
+	margin-top: 0;
+	padding: 0;
+}
+
+
+.button {
+	background-color: #0000FF;
+	border: none;
+	color: white;
+	padding: 15px 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px;
+	cursor: pointer;
+	text-decoration: none;
+}	
+
+
+.button:hover {
+  background-color: #6495ED;
+  color: white;
+}
+
+.button {
+	border-radius: 50px;
+}
+
+
+
+.header{
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-image: linear-gradient(DarkBlue, DarkGoldenRod);
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #d8d8d8;
+}
+
+
+h1 {
+	font-family: 'Merienda', cursive;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Merienda', cursive;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: black;
+}
+
+h3 {
+	font-family: 'Merienda', cursive;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: white;
+}
+	
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_page1 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+.container_page2 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+.container_page3 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+.container_page4 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+.container_page5 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+
+.container_page6 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+
+.container_page7 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+.container_page8 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+.container_page9 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+.container_page10 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+.container_page11 {
+	Background-color: rgb(217, 217, 217);
+	padding: 20px;
+}
+
+.container_page12 {
+	Background-color: rgb(179, 179, 179);
+	padding: 20px;
+}
+
+.container_page13 {
+	Background-color: rgb(140, 140, 140);
+	padding: 20px;
+}
+
+
+.footer {
+	font-size: 150%;
+	text-align: center;
+	clear: both;
+	border-top-style: solid;
+	border-top-width: 5px;
+	background-image: linear-gradient(DarkBlue, DarkGoldenRod);
+	margin-top: 0;
+	padding: 0;
+}
+
+p.outset {border-style: outset;}
+
+
+.fa-container {
+	position: relative;
+}
+
+.fa-topright {
+	position: absolute;
+	top: 0px;
+	right: 16px;
+	font-size: 18px;
+}
+
+.fa {
+	padding:5px;
+	font-size: 5px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px 0px;
+	border-radius: 10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+
+/* Home containers */
+
+.hmpgcontainer {
+	border-color: #6495ED;
+}
+
+/* Three columns side by side */
+.home-column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 5px;
+}
+
+.home-row {margin: 0 50px;}
+
+/* Clear floats after the columns */
+.home-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .home-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.home-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.home-container {
+  padding: 10px 16px;
+}
+
+/* Clear floats */
+.home-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: white;
+}
+
+/* Style the counter cards */
+.home-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+/* Home containers End*/
+
+
+/* About Section -Section Counter */
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.about-column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.about-row {margin: 0 50px;}
+
+/* Clear floats after the columns */
+.about-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .about-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;}
+}
+
+/* Style the counter cards */
+.about-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.fa {font-size:25px;}
+
+/* Float four columns side by side */
+.about-column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+
+/* About Section -Section Counter end */
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pic1.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: White;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+.about_testi_content {
+	grid-column: auto;
+}
+
+.container_testi {
+	display: grid;
+	grid-template-columns: auto ;
+	grid-template-rows: 500px;
+	grid-gap: 3px;
+}
+
+.background-image {
+	background-image: url("img/background2.png");
+	height: 500%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+}
+
+.background-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.glow {
+  font-size: 90px;
+  color: black;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+/* About Section End */
+
+
+/* Home Section - Parallax Scrolling Effect */
+
+.home-parallax {
+  /* The image used */
+  background-image: url("img/handyman.png");
+
+  /* Set a specific height */
+  min-height:350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+/* Home Section - Parallax Scrolling Effect End*/
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #0000FF;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/*services */
+
+
+.center-video {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center-video {
+  margin: auto;
+  width: auto;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.basement_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/basement.png);
+  opacity: 0.6;
+  border: 5px solid DarkBlue;
+}
+
+.bathroom_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/bathroom.png);
+  opacity: 0.6;
+}
+
+.deck_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/deck.png);
+  opacity: 0.6;
+}
+
+.exterior_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/Extrior.png);
+  opacity: 0.6;
+}
+
+.interior_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/Interior.png);
+  opacity: 0.6;
+}
+
+.kitchen_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/kitchen2.png);
+  opacity: 0.6;
+}
+
+.patio_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/patio.png);
+  opacity: 0.6;
+}
+
+.sound_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/sound.png);
+  opacity: 0.6;
+}
+
+
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.pill-nav a:hover {
+  background-color: #0000FF;
+  color: white;
+}
+
+.pill-nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+div.background {
+  background: url(img/bluebackground.png);
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Services-Section -pg3*/
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.grid-services_content3-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px 5px 390px;
+  grid-gap: 0px;
+  background-color: #2196F3;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.grid-services_content3-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-services_content3-container {
+  display: grid;
+  justify-content: space-around;
+}
+
+/* Previous and Next Buttons */
+
+/*Basement-6*/
+
+div.directional6 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional6:hover {
+  background-color: rgba(179, 179, 179);
+  color: white;
+}
+
+.previous6 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+.next6 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+/*Bathroom-7*/
+
+div.directional7 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional7:hover {
+  background-color: rgba(140, 140, 140);
+  color: white;
+}
+
+.previous7 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;  
+}
+
+.next7 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;  
+}
+
+/*Deck-8*/
+div.directional8 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional8:hover {
+  background-color: rgba(217, 217, 217);
+  color: white;
+}
+
+.previous8 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+.next8 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+/*Exterior-9*/
+div.directional9 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional9:hover {
+  background-color: rgba(179, 179, 179);
+  color: white;
+}
+
+.previous9 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+.next9 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px;
+}
+
+
+/*Interior-10*/
+div.directional10 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional10:hover {
+  background-color: rgba(140, 140, 140);
+  color: white;
+}
+
+.previous10 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+.next10 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+/*Kitchen-11*/
+div.directional11 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional11:hover {
+  background-color: rgba(217, 217, 217);
+  color: white;
+}
+
+.previous11 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+.next11 {
+  background-color: rgba(217, 217, 217);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+/*Patio-12*/
+div.directional12 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional12:hover {
+  background-color: rgba(179, 179, 179);
+  color: white;
+}
+
+.previous12 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+.next12 {
+  background-color: rgba(179, 179, 179);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+/*Sound-13*/
+
+div.directional13 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 22px 22px;
+}
+
+.directional13:hover {
+  background-color: rgba(140, 140, 140);
+  color: white;
+}
+
+.previous13 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+.next13 {
+  background-color: rgba(140, 140, 140);
+  color: white;
+  font-family: 'Merienda', cursive;
+  margin-top: 22px; 
+}
+
+/* Services Section End */
+
+
+
+/* Portfolio Section*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DCDCDC;
+  padding: 20px;
+  font-family: 'Merienda', cursive;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #808080;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+/* Portfolio Section End */
+
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+div.d {
+  text-align: justify;
+} 
+
+
+/* Contact Section */
+
+.chicagomap_img div {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/chicagomap.png);
+  border: 1px solid red;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #444; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #444;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #444;
+  padding: 20px;
+}
+
+/* Contact Section End */
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00008B, 0 0 40px #00008B, 0 0 50px #00008B, 0 0 60px #00008B, 0 0 70px #00008B;
+}
+	to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4B0082 0 0 40px #4B0082, 0 0 50px #4B0082, 0 0 60px #4B0082, 0 0 70px #4B0082, 0 0 80px #4B0082;
+  }
