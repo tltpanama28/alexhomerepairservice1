@@ -606,7 +606,7 @@ div.transbox p {
   /*set the appearance of the slider:*/
   width: 40px;
   height: 40px;
-  background-color: #2196F3;
+  background-image: linear-gradient(to right top, #00008B, #DAA520);
   opacity: 0.7;
   border-radius: 50%;
 }
@@ -616,16 +616,21 @@ div.transbox p {
   grid-template-columns: auto;
   grid-template-rows: 80px 5px 390px;
   grid-gap: 0px;
-  background-color: #2196F3;
+  background-image: linear-gradient(to right bottom,  #a6a6a6, #b3b3b3);
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid Gray;
+  border-radius: 2rem; 
+  min-height: 40vh;
+  width: auto;
 }
 
+
 .grid-services_content3-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(to right top, #00008B, #DAA520); 
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  border-radius: 2rem;
 }
 
 .grid-services_content3-container {
@@ -662,6 +667,67 @@ div.directional6 {
   margin-top: 22px; 
 }
 
+.basement-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.basement-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+.basement-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.basement-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.basement-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.basement-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
+	
+
 /*Bathroom-7*/
 
 div.directional7 {
@@ -689,6 +755,69 @@ div.directional7 {
   margin-top: 22px;  
 }
 
+.bathroom-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.bathroom-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+.bathroom-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.bathroom-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.bathroom-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.bathroom-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
+
+
+
+
 /*Deck-8*/
 div.directional8 {
   text-decoration: none;
@@ -715,6 +844,68 @@ div.directional8 {
   margin-top: 22px; 
 }
 
+.deck-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.deck-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+.deck-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.deck-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.deck-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.deck-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
+
+
+
 /*Exterior-9*/
 div.directional9 {
   text-decoration: none;
@@ -740,6 +931,66 @@ div.directional9 {
   font-family: 'Merienda', cursive;
   margin-top: 22px;
 }
+
+.exterior-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.exterior-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+.exterior-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.exterior-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.exterior-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.exterior-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
 
 
 /*Interior-10*/
@@ -768,6 +1019,68 @@ div.directional10 {
   margin-top: 22px; 
 }
 
+.interior-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.interior-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+
+.interior-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.interior-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.interior-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.interior-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
+
+
 /*Kitchen-11*/
 div.directional11 {
   text-decoration: none;
@@ -793,6 +1106,68 @@ div.directional11 {
   font-family: 'Merienda', cursive;
   margin-top: 22px; 
 }
+
+.kitchen-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.kitchen-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+.kitchen-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.kitchen-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.kitchen-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.kitchen-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
+
+
 
 /*Patio-12*/
 div.directional12 {
@@ -820,6 +1195,67 @@ div.directional12 {
   margin-top: 22px; 
 }
 
+.patio-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.patio-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+.patio-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.patio-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.patio-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.patio-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
+
+
 /*Sound-13*/
 
 div.directional13 {
@@ -846,6 +1282,69 @@ div.directional13 {
   font-family: 'Merienda', cursive;
   margin-top: 22px; 
 }
+
+.sound-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.sound-block2 {
+	min-height: 80vh;
+	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}	
+
+.glass {
+	background: white;
+	opacity: 0.5;
+	min-height: 50vh;
+	width:40%;
+    border-radius: 2rem;
+	z-index: 10;
+	filter: blur(1px);
+}
+.sound-circle1 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.sound-circle1 {
+	bottom: 5%;
+	left: 25%;	
+}
+
+.sound-circle2 {
+	background: white;
+	opacity: 0.5;
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+	
+}
+
+.sound-circle2 {
+	top: 5%;
+	right: 25%;	
+}
+
+
+
+
 
 /* Services Section End */
 
