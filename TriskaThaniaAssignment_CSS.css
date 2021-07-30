@@ -482,61 +482,119 @@ p.outset {border-style: outset;}
   padding: 10px;
 }
 
-.basement_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/basement.png);
-  opacity: 0.6;
-  border: 5px solid DarkBlue;
+
+.basement_img {
+	background-image: url(img/basement.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
-.bathroom_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/bathroom.png);
-  opacity: 0.6;
+
+.bathroom_img {
+	background-image: url(img/bathroom.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+
 }
 
-.deck_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/deck.png);
-  opacity: 0.6;
+.deck_img {
+	background-image: url(img/deck.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
-.exterior_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/Extrior.png);
-  opacity: 0.6;
+.exterior_img {
+	background-image: url(img/Extrior.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
-.interior_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/Interior.png);
-  opacity: 0.6;
+.interior_img {
+	background-image: url(img/Interior.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
-.kitchen_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/kitchen2.png);
-  opacity: 0.6;
+.kitchen2_img {
+	background-image: url(img/kitchen2.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
-.patio_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/patio.png);
-  opacity: 0.6;
+.patio_img {
+	background-image: url(img/patio.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
-.sound_img div {
-  width: 100%;
-  height: 400px;
-  background-image: url(img/sound.png);
-  opacity: 0.6;
+.sound_img {
+	background-image: url(img/sound.png);
+	width: 100rem;
+	height: 65rem;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
 
@@ -579,6 +637,18 @@ div.transbox p {
 }
 
 /* Services-Section -pg3*/
+
+.grid-services_content3-container {
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+}	
+
 
 * {box-sizing: border-box;}
 
@@ -642,6 +712,24 @@ div.transbox p {
 
 /*Basement-6*/
 
+.2ndmenu-basement {
+	margin: 10rem;
+	padding: 10rem;
+	box-sizing: border-box;
+	position: relative;
+	min-height: 40vh;	
+}
+
+.base-svs-desc {
+	margin: 10rem;
+	padding: 10rem;
+	box-sizing: border-box;
+	position: relative;
+	min-height: 40vh;	
+}
+	
+	
+
 div.directional6 {
   text-decoration: none;
   display: inline-block;
@@ -676,58 +764,83 @@ div.directional6 {
 }
 
 .basement-block2 {
-	min-height: 80vh;
-	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.basement-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
-.basement-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+
+.basement-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
+}
+
+.basement-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
+}
+
+.basement-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+}
+
+.basement-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+}
+
+.basement-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
+
+
 	
-}
-
-.basement-circle1 {
-	bottom: 5%;
-	left: 25%;	
-}
-
-.basement-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
-	
-}
-
-.basement-circle2 {
-	top: 5%;
-	right: 25%;	
-}
-
-	
-
 /*Bathroom-7*/
 
 div.directional7 {
@@ -755,6 +868,8 @@ div.directional7 {
   margin-top: 22px;  
 }
 
+
+
 .bathroom-block2 {
 	margin: 0px;
 	padding: 0px;
@@ -764,56 +879,82 @@ div.directional7 {
 }
 
 .bathroom-block2 {
-	min-height: 80vh;
-	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.bathroom-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
-.bathroom-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+
+.bathroom-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
+}
+
+.bathroom-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }
 
-.bathroom-circle1 {
-	bottom: 5%;
-	left: 25%;	
-}
-
-.bathroom-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
+.bathroom-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }
 
-.bathroom-circle2 {
-	top: 5%;
-	right: 25%;	
+.bathroom-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
+.bathroom-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
 
 
 
@@ -862,48 +1003,89 @@ div.directional8 {
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.deck-block2 {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.deck-block2 {
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	
+}	
+
+.deck-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
-.deck-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+
+.deck-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
-	
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
 }
 
-.deck-circle1 {
-	bottom: 5%;
-	left: 25%;	
+.deck-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.deck-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
-	
+.deck-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.deck-circle2 {
-	top: 5%;
-	right: 25%;	
+.deck-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-
+.deck-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
 
 
 /*Exterior-9*/
@@ -941,56 +1123,80 @@ div.directional9 {
 }
 
 .exterior-block2 {
-	min-height: 80vh;
-	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.exterior-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
-.exterior-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+
+.exterior-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
-	
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
 }
 
-.exterior-circle1 {
-	bottom: 5%;
-	left: 25%;	
+.exterior-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.exterior-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
-	
+.exterior-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.exterior-circle2 {
-	top: 5%;
-	right: 25%;	
+.exterior-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
+.exterior-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
 
 
 /*Interior-10*/
@@ -1028,56 +1234,80 @@ div.directional10 {
 }
 
 .interior-block2 {
-	min-height: 80vh;
-	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.interior-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
 
-.interior-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+.interior-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
-	
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
 }
 
-.interior-circle1 {
-	bottom: 5%;
-	left: 25%;	
+.interior-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.interior-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
-	
+.interior-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.interior-circle2 {
-	top: 5%;
-	right: 25%;	
+.interior-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
+
+.interior-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
 
 
 
@@ -1107,7 +1337,7 @@ div.directional11 {
   margin-top: 22px; 
 }
 
-.kitchen-block2 {
+.basement-block2 {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -1116,56 +1346,80 @@ div.directional11 {
 }
 
 .kitchen-block2 {
-	min-height: 80vh;
-	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.kitchen-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
-.kitchen-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+
+.kitchen-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
-	
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
 }
 
-.kitchen-circle1 {
-	bottom: 5%;
-	left: 25%;	
+.kitchen-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.kitchen-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
-	
+.kitchen-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.kitchen-circle2 {
-	top: 5%;
-	right: 25%;	
+.kitchen-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
+.kitchen-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
 
 
 
@@ -1204,55 +1458,80 @@ div.directional12 {
 }
 
 .patio-block2 {
-	min-height: 80vh;
-	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.patio-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
-.patio-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+
+.patio-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
-	
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
 }
 
-.patio-circle1 {
-	bottom: 5%;
-	left: 25%;	
+.patio-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.patio-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
-	
+.patio-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.patio-circle2 {
-	top: 5%;
-	right: 25%;	
+.patio-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
+
+.patio-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
 
 
 
@@ -1292,59 +1571,80 @@ div.directional13 {
 }
 
 .sound-block2 {
-	min-height: 80vh;
-	background: linear-gradient(to right top, #00bfff, #e6f9ff);
+	min-height: 90vh;
+	background: linear-gradient(to right top,  #737373, #f2f2f2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 	
 }	
 
-.glass {
-	background: white;
-	opacity: 0.5;
-	min-height: 50vh;
-	width:40%;
+.sound-block2-glass {
+	background: rgb(240,248,255,0.4);
+	box-shadow: 0 20px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5), 0px 0px 30px rgba(0,0,0,0.5);
+	z-index: 5%;
+	min-height: 65vh;
+	width:60%;
     border-radius: 2rem;
-	z-index: 10;
-	filter: blur(1px);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	box-shadow: inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #da2,   /* inner left magenta short */
+    inset -20px 0 80px #b80,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
 }
-.sound-circle1 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
+
+
+.sound-block2-glass-card-contractor {
+	transform-style: preserve-3d;
+	padding-top: 3rem;
+	padding: 5rem 5rem;
+	background-image: linear-gradient(to right top, #00008B, #DAA520);
+	box-shadow: 0 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+	width: 25rem;
+	height: 25rem;
 	border-radius: 50%;
-	z-index: 5;
-	
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 1;	
+	perspective: 1000px;	
 }
 
-.sound-circle1 {
-	bottom: 5%;
-	left: 25%;	
+.sound-contractor img {
+	z-index: 3;	
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.sound-circle2 {
-	background: white;
-	opacity: 0.5;
-	height: 20rem;
-	width: 20rem;
-	position: absolute;
-	border-radius: 50%;
-	z-index: 5;
-	
+.sound-block2-glass-card {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-.sound-circle2 {
-	top: 5%;
-	right: 25%;	
+.sound-block2-glass-card-contractor-info {
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	transform-style: preserve-3d;
+	perspective: 1000px;
 }
 
-
-
-
+.sound-description {
+	padding-top: 3rem;
+	transform-style: preserve-3d;
+	perspective: 1000px;	
+}	
 
 /* Services Section End */
 
