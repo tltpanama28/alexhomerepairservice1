@@ -91,7 +91,7 @@ $(document).ready(function(){
 <div style="background-image: linear-gradient(DarkBlue, DarkGoldenRod);padding:3px;"></div>		
 	<ul class="nav nav-tabs nav-justified">
 		<li class="nav-item">
-			<a class="nav-link" href="TriskaThaniaAssignment4Home.html">Home</a>
+			<a class="nav-link" href="TriskaThaniaAssignment5Home.html">Home</a>
 		 </li>
 		 <li class="nav-link">
 			<a class="nav-link" href="About.html">About</a>
@@ -130,7 +130,7 @@ $(document).ready(function(){
 			</div>
 			<div class="center"> 
 				<div class="video">
-				<video width="900" height="360" controls autoplay loop>
+				<video width="600" height="360" controls autoplay loop>
 				<source   src="media/services_2.mp4" type="video/mp4">
 				<source   src="media/services_2.ogg" type="video/ogg">
 				Your browser does not support HTML5 video.
@@ -206,9 +206,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
- </div>		
-		
-					
+							
 </section>
 <script>
 function initComparisons() {
@@ -293,6 +291,120 @@ function initComparisons() {
 initComparisons();
 </script>
 </div>
+
+
+<section id="orange">
+	<div style="background-image: linear-gradient(Lavender, DarkOrange, Lavender);padding:3px;">
+		<div class="promocode">
+
+<div class="promocode-grid-container">
+<br />
+<br />
+<br />
+	<div class="promocode-row1">
+ 	<div class="section1 align: center">
+	 <h2 style="text-align: center; font-size: 19em; color: white">Orange</h2>
+	 </div>
+	 <div class="promocode-row2">
+	 <div class="section1 align: center">
+	 <h2 style="text-align: center; font-size: 4em"> You Glad It's Tuesday?</h2> 
+	</div> 
+  </div>
+ </div> 
+  
+<div class="promocode-row">
+<div class="promocode-column">
+  <div class="section2 align: left">
+  <h2 style="text-align: center">Monday</h2>
+  <div class="section3 align: center">
+  <img src="img/orange.png" alt="pic" width="250" height="250">
+  	</div>
+  </div>
+ </div> 
+  
+
+<div class="promocode-column">
+  <div class="section3 align: left">
+  <h2 style="text-align: center">Tuesday</h2>
+  	<div class="section3 align: center">
+	<img src="img/orange-present.png" alt="pic" width="250" height="250">
+  	</div>
+  </div>
+</div> 
+  
+  
+
+<div class="promocode-column">
+	<div class="section3 align: left">
+		<h2 style="text-align: center">Wednesday</h2>
+  	<div class="section3 align: center">
+		<img src="img/orange.png" alt="pic" width="250" height="250">
+  	</div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="promocode-grid-container">
+	<div class="promocode-row1">
+ 	<div class="section1 align: center">
+	 <h2 style="text-align: center; font-size: 4em">Take an Extra 10% Off</h2>
+	 </div>
+	 <div class="promocode-row2">
+	 <div class="section1 align: center">
+	 <p style="text-align: center; font-size: 2em"><b>every first Tuesday of the month</b></p> 
+	</div> 
+  </div>
+ </div>
+</div> 
+ 
+  
+<div class="promocode-row">
+  <div class="section4 align: center">
+		<p style="text-align: center; font-size: 2em"><b>Valid on projects using promo code TUESAVINGS. Drag and Drop Code and Submit now</b></p>	 
+	</div>
+</div>
+
+
+<div class="promocode-row">
+  <div class="section4 align: center">
+<div id="dragcode1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="img/savings.png" alt="savings" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+<div id="dropcode2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+</div>
+
+
+	<div class="center"> 
+		<a href="mailto:alexhernandez@gmail?subject=Request%20Information" class="button onclick">Submit Code</a>
+	</div>
+<br />
+<br />	
+	</div>
+	</div>
+</div>
+
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+</section>
+
+
 </main>
   	
 <footer>

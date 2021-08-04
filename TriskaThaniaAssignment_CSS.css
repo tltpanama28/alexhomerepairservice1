@@ -1,4 +1,4 @@
-/* STYLE SHEET FOR TRISKATHANIAASSIGNMENT3.HTML */
+/* STYLE SHEET FOR TRISKATHANIAASSIGNMENT5.HTML */
 
 body {
 	font-size: 100%;
@@ -8,6 +8,7 @@ body {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #444;
+	justify-content; center;
 }
 
 * {
@@ -1806,6 +1807,53 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #444;
   padding: 20px;
+}
+
+
+.promocode-grid-container {
+  display: grid;
+}
+
+.promocode-row {
+	width: 100%;
+	padding: 20px;
+	float: left;
+	align-items:center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.promocode-column {
+	width: 100%;
+	padding: 20px;
+	float: left;
+	align-items:center;
+	padding-top: 3rem;
+	padding-left: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+
+.promocode #dragcode1, #dropcode2 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.promocode-grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* Contact Section End */
